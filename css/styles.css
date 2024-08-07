@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  align-items: center;
+  background: #37474F;
+  font-family: monospace;
+  color: #cfd8dc;
+  justify-content: center;
+}
+
+input {
+  font-family: monospace;
+  font-size: 20px;
+  border: none;
+  background: #1c232636;
+  color: #CFD8DC;
+  padding: 7px;
+  border: #4c5a61 solid 2px;
+  font-size: 20px;
+  width: 300px;
+}
+
+.message-box {
+  text-align: center;
+}
+
+.submit-btn {
+  width: 100%;
+}
+
+.message-box div {
+  margin-top: 10px;
+}
+
+.title {
+  /* Add styles for title if needed */
+}
+
+#welcome-message {
+  margin: 10px 0px 20px 10px;
+  text-transform: capitalize;
+}
+
+#error-message {
+  /* Add styles for error-message if needed */
+}
+
+a {
+  color: azure;
+  margin: 10px;
+  color: #E91E63;
+  display: block;
+  font-size: large;
+}
+
+.field {
+  max-width: fit-content;
+  margin: 10px;
+}
